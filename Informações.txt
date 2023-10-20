@@ -1,0 +1,40 @@
+Para declaral um variavel utiliza-se o camelCase, não podendo iniciar por número
+As mesmas são caseSensitive.
+
+Usar bastante const preferencialmente e só usar o let caso for alterar valores
+
+Tipagem dinâmica-  o js é uma linguagem com tipagem dinâmica, tendo a capacidade de descobrir em tempo de execução
+
+Tipos de referências:
+
+objetos: Conjunto de informações agrupadas, podem conter outros atributos elementos como funções e métodos.
+Entidade que pode conter cados e ações ralacionadas a um conceito específico.
+
+arrays: Conjunto de dados que pode ser acessado por um índice.
+let nomeArray = [X,x,X,x];
+console.log(nomeArray[posição do elemento]);
+Faz parte do conceito de objeto e tem vários métodos.
+
+functions: Faz parte da base do software, controla o fluxo de execução, com entrada e saida de dados.
+sendo um código reutilizável que pode ser definido uma vez e depois chamado várias vezes com diferentes valores de entrada.
+
+// nomear fução Verbo + Substantivo
+exemplo - resetaCor
+	  alterarTamanho
+	  
+function nomeFuncao(){
+	método
+}
+
+nomeFuncao(); //Chamando a função.
+
+Os parâmetros são para passar valores contidos em váriaveis para puder utilizar dentro da função.
+
+Tipos de valores:
+
+String
+boolean - construir regras no meu sistema
+null - resetar um valor, redefinir um valor 
+number
+undefined
+
