@@ -1,0 +1,150 @@
+Para declaral um variavel utiliza-se o camelCase, não podendo iniciar por número
+As mesmas são caseSensitive.
+
+Usar bastante const preferencialmente e só usar o let caso for alterar valores
+
+Tipagem dinâmica-  o js é uma linguagem com tipagem dinâmica, tendo a capacidade de descobrir em tempo de execução
+
+Tipos de referências:
+
+objetos: Conjunto de informações agrupadas, podem conter outros atributos elementos como funções e métodos.
+Entidade que pode conter cados e ações ralacionadas a um conceito específico.
+
+arrays: Conjunto de dados que pode ser acessado por um índice.
+let nomeArray = [X,x,X,x];
+console.log(nomeArray[posição do elemento]);
+Faz parte do conceito de objeto e tem vários métodos.
+
+functions: Faz parte da base do software, controla o fluxo de execução, com entrada e saida de dados.
+sendo um código reutilizável que pode ser definido uma vez e depois chamado várias vezes com diferentes valores de entrada.
+
+// nomear fução Verbo + Substantivo
+exemplo - resetaCor
+	  alterarTamanho
+	  
+function nomeFuncao(){
+	método
+}
+
+nomeFuncao(); //Chamando a função.
+
+Os parâmetros são para passar valores contidos em váriaveis para puder utilizar dentro da função.
+
+Tipos de valores:
+
+String
+boolean - construir regras no meu sistema
+null - resetar um valor, redefinir um valor 
+number
+undefined
+
+_____________________________
+
+Tipos de funções: 
+
+// Realizar um tarefa, e não devolve nada
+function dizerNome(){
+	console.log('jhonatan');
+}
+
+DizerNome();
+
+Processa e trata o dado, retorna algo.
+
+function MultiplicarPorDois(valor){
+	return valor*3;
+}
+
+ler resultado = MultiplicarPorDois(5);
+
+console.log(resultado);
+
+___________________
+Operadores Aritiméticos:
++, -, ==, /, *, **(Exponencial), %(módulo)
+// ++(incremento), --(decremento)
+Operadores Atribuição:
+= 
++=
+-=
+Possível fazer com todos os operadores matemáticos
+
+valorConta += valorConta - equivale a valorConta + valorConta
+Operadores de Comparação:
+=== - igual estrita, compara valor e o tipo. podendo retornar true e false.
+==- igualdade solta, compara o valor, casos os tipos sejam diferente ele igonara/converte o tipo, não sendo muito recomendado.
+
+Operadores ternário:
+
+Substitui o if e o else.
+
+let nomeVariavel = valorVariável;
+let nomeVariavelConfirmacao = nomeVariavel >(Operadores lógicos e de comparação pode ser utilizados) Condição ? 'primeiro retorno': 'segundo retorno';
+console.log(nomeVariavelConfirmacao);- pode ser utilizados com outos métodos.
+
+let ponto = 200;
+let tipo = pontos > 100 ? 'premium'(if) : 'comum'(else);
+console.log(tipo)- Retorna premium
+
+//Lógica para ser se um cliente é premium ou comum.
+
+Operadores lógicos:
+
+Usados para tomar decisões em condições múltiplas 
+
+// && - Retorna True se os dois operandos forem true . Operador (e).
+
+// || - Retornar true se um dos operandos forem true. Operador (ou). Retorna verdadeiro se um dos dois for verdadeiro 
+
+// ! - Faz uma negação. Operador NOT(não).
+
+Um resultado de uma comparação lógica nem sempre fazer um resultado boleaano
+Falsy - undefined, 0, null, NaN(Not a Number, false, ''.
+Truthy - true, tudo que não é false.
+
+JavaScript Analisa a primeira condição e logo em seguida retorna.
+Ele para de fazer a comparação quando acha o truthy.
+
+Operadores Bitwise:
+
+
+Bitwise AND (&): O operador & realiza uma operação de "E" lógico bit a bit em dois números. Ele retorna um número onde cada bit é 1 se ambos os bits correspondentes nos números originais também forem 1.
+
+Bitwise OR (|): O operador | realiza uma operação de "OU" lógico bit a bit em dois números. Ele retorna um número onde cada bit é 1 se pelo menos um dos bits correspondentes nos números originais for 1.
+
+Bitwise XOR (^): O operador ^ realiza uma operação de "OU exclusivo" bit a bit em dois números. Ele retorna um número onde cada bit é 1 se exatamente um dos bits correspondentes nos números originais for 1.
+
+Bitwise NOT (~): O operador ~ realiza uma operação de "negação" bit a bit em um número. Ele inverte todos os bits, tornando todos os 0 em 1 e todos os 1 em 0.
+
+Operações bit a bit são usadas quando a manipulação de bits é necessária, como em programação de baixo nível, controle de hardware, criptografia, compactação de dados e em situações em que a eficiência é crítica.
+
+// If e Else
+
+If(se) : Operador condicicional, se algo ocorrer assim faça isso.
+else(senão): Faça outra ação.
+
+if(condicao) {
+   // codigo a ser executado
+}else {
+
+}
+
+Podendo usar o - else if (outraCondicao) {
+	// codigo a ser executado
+}
+
+// swith case 
+
+é uma estrutura de controle em JavaScript que permite tomar decisões com base no valor de uma expressão. É frequentemente usado para substituir várias instruções if...else if...else quando você precisa avaliar uma única expressão em relação a várias condições diferentes.
+
+Aqui está uma explicação de como o switch e case funciona:
+
+expressao é a expressão que você deseja avaliar. O valor dessa expressão será comparado com os valores dos case subsequentes.
+
+case valorX: é um rótulo que representa um valor específico que a expressao pode assumir. Se expressao for igual a valorX, o bloco de código associado a esse case será executado.
+
+break; é usado para encerrar a execução do bloco de código atual e sair do switch. É importante incluir break após cada case para evitar a execução acidental de blocos de código subsequentes.
+
+default: é opcional e serve como um caso de fallback. Se expressao não corresponder a nenhum dos valores nos case anteriores, o bloco de código associado ao default será executado.
+
+// Laço for/ Loop for
