@@ -91,3 +91,4 @@ switch(saude){
     default:
     console.log('Comando não reconhecido ...');
 }
+

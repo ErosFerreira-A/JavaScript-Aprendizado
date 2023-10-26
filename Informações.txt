@@ -1,3 +1,37 @@
+Em JavaScript, métodos são funções que são associadas a objetos. Eles permitem que você execute ações ou realize operações em relação a um objeto específico. Métodos são uma parte fundamental da programação orientada a objetos em JavaScript. Aqui estão alguns exemplos de métodos em JavaScript:
+
+Métodos de String:
+toUpperCase(): Converte uma string em letras maiúsculas.
+toLowerCase(): Converte uma string em letras minúsculas.
+charAt(index): Retorna o caractere na posição especificada do índice.
+substring(start, end): Retorna uma parte da string com base nos índices de início e fim.
+
+Métodos de Array:
+push(elemento): Adiciona um elemento ao final de um array.
+pop(): Remove o último elemento de um array.
+join(separador): Converte os elementos de um array em uma string, separando-os com o separador especificado.
+indexOf(elemento): Retorna o índice da primeira ocorrência do elemento no array.
+
+Métodos de Objetos:
+Object.keys(objeto): Retorna um array com as chaves do objeto.
+Object.values(objeto): Retorna um array com os valores do objeto.
+hasOwnProperty(propriedade): Verifica se o objeto possui a propriedade especificada.
+
+Métodos de Funções:
+call(thisArg, arg1, arg2, ...): Invoca uma função com um valor específico para this e argumentos passados como parâmetros.
+apply(thisArg, [argsArray]): Invoca uma função com um valor específico para this e um array de argumentos.
+bind(thisArg): Retorna uma nova função que, quando chamada, tem this definido como o valor especificado.
+
+Pelo meu entedimento atual, métodos e bibliotecas são funções pré dispostas
+
+Dentro do if só retornar a expressão se for true
+vetor é um array unidimensional
+Matriz é um array multi-dimensional - Matriz (array multi-dimensional) é um vetor de vetores. No nosso problema, imagine uma matriz para armazenar as 4 notas de cada um dos 50 alunos. Ou seja, um vetor de 50 posições, e em cada posição do vetor, há outro vetor com 4 posições. Isso é uma matriz.
+Como boa prática coloca-se o mesmo tipo de dado no vetor.
+Quando necessário guardar uma coleção usa-se o array, para só buscar a informação dentro do indice da mesmas
+Ao nomear varáveis colocar um nome que faça sentido 
+Qualquer número que não será usado para operações matemáticas como por exemplo número de telefone, por boas práticas salva-se como string
+___________
 Para declaral um variavel utiliza-se o camelCase, não podendo iniciar por número
 As mesmas são caseSensitive.
 
@@ -148,3 +182,4 @@ break; é usado para encerrar a execução do bloco de código atual e sair do s
 default: é opcional e serve como um caso de fallback. Se expressao não corresponder a nenhum dos valores nos case anteriores, o bloco de código associado ao default será executado.
 
 // Laço for/ Loop for
+
