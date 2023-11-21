@@ -1,3 +1,11 @@
+Uma função só pode retornar um vetor por vez ou um objeto por vez
+Programar em inglês é uma boa prática
+Dentro da função é possível colocar um valor padrâo no parâmetro.
+Json é uma maneira de transferir dados de um lugar para outro de uma maneira mais fácil.
+Usado para quando 
+variavel nomeVariavel = {
+	chave: valor
+}
 Em JavaScript, métodos são funções que são associadas a objetos. Eles permitem que você execute ações ou realize operações em relação a um objeto específico. Métodos são uma parte fundamental da programação orientada a objetos em JavaScript. Aqui estão alguns exemplos de métodos em JavaScript:
 
 Métodos de String:
@@ -183,3 +191,12 @@ default: é opcional e serve como um caso de fallback. Se expressao não corresp
 
 // Laço for/ Loop for
 
+Em JavaScript, o loop "for" é uma estrutura de controle que permite executar um bloco de código repetidamente enquanto uma condição for verdadeira. Ele é frequentemente usado para percorrer elementos em uma matriz (array), executar uma ação um número específico de vezes ou realizar iterações com base em uma condição.
+
+Aqui está a sintaxe básica de um loop "for" em JavaScript:
+
+1- For
+2-While
+3-Do ... while
+4- For .. In
+5- For .. of

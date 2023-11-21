@@ -51,11 +51,11 @@ document.write(tipo);
 
 //______________________
 
-*/
+
 
 let temDinheiro = true;
 let temTempo = true;
-let estabilidade = temTempo || temTempo;
+let estabilidade = temTempo || temDinheiro;
 document.write('Você tem boas condições ', estabilidade);
 
 let hater = !estabilidade;
@@ -92,3 +92,30 @@ switch(saude){
     console.log('Comando não reconhecido ...');
 }
 
+// Loop For
+let i = 0;
+
+for (i < 10; i++){
+    console.log("Estou aprendendo !!!")
+}
+
+*/
+
+// Mini projeto trocando os valores de varáveis
+
+let a = 'vermelho';
+let b = 'azul';
+let c = a ;
+let i = 0;
+
+
+function trocaValores(a, b){
+	a = b;
+    b = c;
+    
+    console.log(a);
+	console.log(b + ' este é o b');
+    
+}
+
+trocaValores(a, b);
