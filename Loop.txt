@@ -1,0 +1,48 @@
+1- For
+2-While
+3-Do ... while
+4- For .. In
+5- For .. of
+
+for(let i = 0; i < 10; i++){} -
+
+O i é usado para indicar o índice de contagem.
+durante o estágio de i menor que dez faça{}.
+
+while -
+
+É necessário criar a váriavel de indice fora do loop;
+
+let i = x;
+
+while(condicao);
+
+Do.. While -
+
+do {
+   comando
+} while(condicao)
+
+faça {
+   comando
+} enquanto(condicao);
+
+let i = 1;
+let num = 10;
+
+do{
+	powerCar();
+    i++
+} while(i <= num);
+
+
+function powerCar(){
+	console.log(i +'- ligando carro ...');
+};
+
+
+
+Loop for in -
+
+
+

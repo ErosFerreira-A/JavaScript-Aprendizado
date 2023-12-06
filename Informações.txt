@@ -30,7 +30,7 @@ call(thisArg, arg1, arg2, ...): Invoca uma função com um valor específico par
 apply(thisArg, [argsArray]): Invoca uma função com um valor específico para this e um array de argumentos.
 bind(thisArg): Retorna uma nova função que, quando chamada, tem this definido como o valor especificado.
 
-Pelo meu entedimento atual, métodos e bibliotecas são funções pré dispostas
+Pelo meu entedimento atual, métodos e bibliotecas são funções nativas.
 
 Dentro do if só retornar a expressão se for true
 vetor é um array unidimensional
@@ -50,7 +50,7 @@ Tipagem dinâmica-  o js é uma linguagem com tipagem dinâmica, tendo a capacid
 Tipos de referências:
 
 objetos: Conjunto de informações agrupadas, podem conter outros atributos elementos como funções e métodos.
-Entidade que pode conter cados e ações ralacionadas a um conceito específico.
+Entidade que pode conter dados e ações ralacionadas a um conceito específico.
 
 arrays: Conjunto de dados que pode ser acessado por um índice.
 let nomeArray = [X,x,X,x];
@@ -94,12 +94,12 @@ DizerNome();
 Processa e trata o dado, retorna algo.
 
 function MultiplicarPorDois(valor){
-	return valor*3;
+	return valor*2;
 }
 
 ler resultado = MultiplicarPorDois(5);
 
-console.log(resultado);
+console.log(resultado);(10)
 
 ___________________
 Operadores Aritiméticos:
@@ -114,7 +114,7 @@ Possível fazer com todos os operadores matemáticos
 valorConta += valorConta - equivale a valorConta + valorConta
 Operadores de Comparação:
 === - igual estrita, compara valor e o tipo. podendo retornar true e false.
-==- igualdade solta, compara o valor, casos os tipos sejam diferente ele igonara/converte o tipo, não sendo muito recomendado.
+== - igualdade solta, compara o valor, casos os tipos sejam diferente ele igonara/converte o tipo, não sendo muito recomendado.
 
 Operadores ternário:
 
@@ -195,8 +195,8 @@ Em JavaScript, o loop "for" é uma estrutura de controle que permite executar um
 
 Aqui está a sintaxe básica de um loop "for" em JavaScript:
 
-1- For
-2-While
-3-Do ... while
-4- For .. In
-5- For .. of
+
+// Array
+São um conjunto de dados.
+
+
